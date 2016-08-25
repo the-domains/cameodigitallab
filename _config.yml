@@ -1,14 +1,26 @@
-layout_spectrum: 1
 color:
   saturation: 0.05009115
-  lightness: 0.9222957
   brandStrength: 0.07929999
+  rhythmicContrast: 0.2911244
   brandColors:
     - '#414143'
     - '#FFFFFF'
     - '#CBCBCB'
     - '#FFC92E'
     - '#7F7F81'
-  rhythmicContrast: 0.2911244
+  lightness: 0.9222957
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 1
 typography_spectrum: 0.5197133
 name: CameoDigitalLab
